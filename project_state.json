@@ -1,0 +1,75 @@
+{
+  "project_name": "PRUEBAAAA",
+  "last_updated": "2025-12-18T19:20:00",
+  "status": "COMPLETED - TESTING & UI POLISH",
+  "current_phase": "Maintenance / Ready for Production",
+  "context": {
+    "architecture": "Clean Architecture (Domain/Data/Feature)",
+    "tech_stack": [
+      "Kotlin",
+      "Jetpack Compose",
+      "Hilt",
+      "Room",
+      "Retrofit",
+      "Domain Layer (UseCases)",
+      "Navigation Compose",
+      "MockK (Testing)",
+      "Turbine (Flow Testing)",
+      "Coroutines Test"
+    ],
+    "critical_constraints": []
+  },
+  "progress": {
+    "completed_tasks": [
+      "Domain Models (Weather, City) created",
+      "Domain Repository Interfaces created",
+      "WeatherRepository refactored to implement IWeatherRepository",
+      "WeatherDomainMapper created",
+      "GetWeatherUseCase created",
+      "RefreshWeatherUseCase created",
+      "Refactor WeatherViewModel to use UseCases",
+      "Update WeatherScreen to use Domain Weather model",
+      "Migrate MunicipiosRepository to CityRepositoryImpl (Domain/Data)",
+      "Create SearchCityUseCase",
+      "Implement Favorites functionality (DB Table, DAO, Repository update, UseCases)",
+      "Implement Search Screen UI",
+      "Setup Navigation (Home, Search, Detail)",
+      "Integrate Favorites in WeatherScreen and SearchScreen",
+      "Implement Hourly and Daily Forecast in Domain/Data layers",
+      "Update WeatherScreen to display Hourly and Daily Forecast",
+      "Fix compilation errors (Regex escape and duplicate imports)",
+      "Add Unit Tests for UseCases (GetWeatherUseCase, SearchCityUseCase)",
+      "Add Unit Tests for ViewModels (FavoritesViewModel, SearchViewModel)",
+      "Configure Testing dependencies (MockK, Turbine, Coroutines Test)",
+      "Create Color.kt with premium color palette",
+      "Create Type.kt with custom typography",
+      "Update Theme.kt with custom color scheme",
+      "Redesign FavoritesScreen with gradient cards and animations",
+      "Fix Wind Data fetching (using Daily API)",
+      "Implement Daily Detail Bottom Sheet with extended data (Humidity, RealFeel, UV)",
+      "Add precipitation (mm) to Hourly and Daily forecast",
+      "Polish WeatherScreen UI (Date formatting, Grid layout)"
+    ],
+    "active_task": "None",
+    "pending_tasks": [
+      "UI/UX improvements (remaining screens)",
+      "Compose UI testing",
+      "Desktop widgets",
+      "Weather alert notifications"
+    ]
+  },
+  "testing": {
+    "unit_tests": 10,
+    "test_files": [
+      "GetWeatherUseCaseTest.kt",
+      "SearchCityUseCaseTest.kt",
+      "FavoritesViewModelTest.kt",
+      "SearchViewModelTest.kt"
+    ],
+    "status": "All passing"
+  },
+  "user_preferences": {
+    "auto_save_enabled": true,
+    "language": "es-ES"
+  }
+}

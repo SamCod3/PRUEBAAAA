@@ -5,3 +5,17 @@ dist/
 .gradle/
 build/
 app/build/
+
+# Android
+*.hprof
+local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+
+# Kotlin
+.kotlin/
